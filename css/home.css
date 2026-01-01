@@ -1,0 +1,9 @@
+.content-wrapper {background: #F0F4FF;}
+.topBox {background: white; border-radius: 0 0 10px 10px;}
+.topBox .top {display: flex; justify-content: space-between; padding-top: 15px;}
+.topBox .right img {margin-left: 15px;}
+.speaker {margin-top: 40px; display: flex; justify-content: space-between; align-items: center;}
+.speaker .DRPILL {font-weight: 600; line-height: 1.4;}
+.notice {padding: 45px 0;}
+.notice p {width: 338px; height: 40px; padding-left: 21px; align-content: center; background: #E8FFF4; color: #4BC28B; border-radius: 20px; font-size: 16px; font-weight: 500;}
+.notice p:nth-child(2) {background: #F0F4FF; color: #4889FF; margin-top: 7px;}
