@@ -15,7 +15,7 @@ button:focus {outline: none}
 
 /* layout */
 body {background: #f5f5f5; color: #fff; font-family: 'Pretendard', sans-serif;}
-.content-wrapper {width: 390px; height: 852px; margin: 0 auto; background: white; color: black; overflow: hidden; position: relative;}
+.content-wrapper {width: 390px; height: 852px; margin: 0 auto; background: white; color: black; padding-bottom: 100px; position: relative;}
 .inner {padding: 0 28px;}
 
 /* 공통요소 */
@@ -24,12 +24,21 @@ body {background: #f5f5f5; color: #fff; font-family: 'Pretendard', sans-serif;}
 .status-bar .time {padding: 22px 22px 9px; font-size: 17px; font-weight: bold; line-height: 1;}
 .status-bar .status {display: flex; gap: 7px; padding: 18px 4px 13px 30px;}
 
+/* 상단 페이지 타이틀 + back 버튼 */
+.pageTit {display: flex;  padding: 20px 161px 19px 28px; justify-content: space-between; align-items: center; font-size: 20px; font-weight: 700; letter-spacing: -1px;}
+/* 상단 페이지 타이틀 + back 버튼 + 아이콘 */
+.pageTitIcon {display: flex;  padding: 20px 28px; justify-content: space-between; align-items: center; font-size: 20px; font-weight: 700; letter-spacing: -1px;}
+.pageTitIcon a {width: 25px;}
+
 /* DR.PILL */
 .DRPILL {font-family: "Bowlby One SC", sans-serif; font-size: 24px; line-height: 1; color: #1C2E40;}
+.DRPILL.big {font-size: 47px;}
 .DRPILL span {font-family: "Bowlby One SC", sans-serif; line-height: 1; color: #4889FF;}
 
 /* 24px 타이틀 */
 .onTit {text-align: center; margin-top: 120px; font-size: 24px; font-weight: 700;}
+/* section 타이틀 22px */
+.sectionTit {font-size: 22px; font-weight: 700; margin-bottom: 24px;}
 
 /* 버튼 */
 .btnBox a {display: block; font-size: 15px; font-weight: 600; width: 290px; height: 50px; text-align: center; align-content: center; margin: auto; background: #F9F9F9; border-radius: 10px;}
@@ -43,3 +52,7 @@ body {background: #f5f5f5; color: #fff; font-family: 'Pretendard', sans-serif;}
 
 .logo {text-align: center; margin: 300px auto 352px; font-size: 47px; height: 100%;}
 .logo .subTit {font-size: 15px; font-weight: bold;letter-spacing: -1px; margin-top: 20px;}
+
+footer ul {position: fixed; bottom: 0; background: white; display: flex; justify-content: space-between; align-items: center; padding: 10px 18px;} 
+footer ul li {text-align: center; width: 70.8px; font-size: 10px; font-weight: 500; color: #ABABAB;}
+footer ul li img {margin-bottom: 8px;}

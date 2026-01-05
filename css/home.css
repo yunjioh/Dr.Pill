@@ -1,9 +1,35 @@
-.content-wrapper {background: #F0F4FF;}
-.topBox {background: white; border-radius: 0 0 10px 10px;}
+.content-wrapper {height: auto;}
+section {padding: 32px 28px;}
+
+.topBox {background: white; padding-top: 0;}
 .topBox .top {display: flex; justify-content: space-between; padding-top: 15px;}
 .topBox .right img {margin-left: 15px;}
+
 .speaker {margin-top: 40px; display: flex; justify-content: space-between; align-items: center;}
 .speaker .DRPILL {font-weight: 600; line-height: 1.4;}
-.notice {padding: 45px 0;}
-.notice p {width: 338px; height: 40px; padding-left: 21px; align-content: center; background: #E8FFF4; color: #4BC28B; border-radius: 20px; font-size: 16px; font-weight: 500;}
+
+.notice {padding-top: 45px;}
+.notice p {width: 338px; height: 40px; padding-left: 21px; align-content: center; background: #E8FFF4; color: #4BC28B; border-radius: 20px; font-size: 16px; font-weight: 600;}
 .notice p:nth-child(2) {background: #F0F4FF; color: #4889FF; margin-top: 7px;}
+
+.record ul {display: flex; justify-content: space-between;}
+.record ul li {text-align: center; font-size: 15px; font-weight: 600;}
+.record ul li a {display: block; width: 60px; height: 60px; border-radius: 50%; background: #F4F4F4; align-content: center; margin-bottom: 6px;}
+
+.service ul {display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 94px); gap: 12px;}
+.service ul li {border-radius: 10px;}
+.service ul li a {display: flex; padding: 21.5px; justify-content: space-between; font-size: 18px; font-weight: 700; color: white; line-height: 1.4;}
+.service ul li img {width: 50px;}
+.service ul li.register {background: linear-gradient(-61deg, #3FC277, #6AD87F);}
+.service ul li.gps {height: 200px; display: block; position: relative; background: linear-gradient(-61deg, #34A7E0, #3DC3D2); grid-row: 2 / 5;}
+.service ul li.gps img {width: 80px; position: absolute; right: 21.5px; bottom: 21.5px;}
+.service ul li.delete {background: linear-gradient(-61deg, #18BCB2, #3CD2AB);}
+.service ul li.delete img {width: 35px;}
+.service ul li.analysis {background: linear-gradient(-61deg, #378FDD, #45AFEB);}
+.service ul li.analysis a {padding-right: 10px;}
+.service ul li.ai {background: linear-gradient(-61deg, #378EDD, #45AFEB);}
+
+.daily ul.list li {display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; background: #F9F9F9; border-radius: 10px; margin-bottom: 12px; font-size: 16px; font-weight: 600; letter-spacing: -1px;}
+.daily ul.content {margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.daily ul.content li {position: relative; margin-bottom: 4px;}
+.daily ul.content li p {position: absolute; bottom: 10px; left: 15px; font-size: 16px; font-weight: 700; color: white; letter-spacing: -1px; line-height: 1.4;}

@@ -1,0 +1,115 @@
+.content-wrapper {height: auto;}
+
+.topBox {display: flex; justify-content: space-between; padding: 30px 34px; padding-right: 10px; align-items: center; font-size: 24px; font-weight: 700; line-height: 1.35; margin-bottom: 56px;}
+.topBox.exercise {background: linear-gradient(124deg, #EDE9FF, #B4DDFF);}
+.topBox.sleep {padding: 0 34px; padding-right: 10px; background: linear-gradient(124deg, #DDF1FF, #7E9ACE);}
+.topBox.food {height: 206px; padding: 0 34px; padding-right: 10px; background: linear-gradient(124deg, #EBFECD, #93CDDD);}
+.topBox.health {padding: 15px 34px; padding-right: 0; background: linear-gradient(124deg, #DFF8FF, #BFBAFF);}
+.topBox.pill {padding: 20px 34px; padding-right: 10px; background: linear-gradient(124deg, #E4FFE4, #A1B3FF);}
+.topBox img {width: 60%;}
+.topBox.health img {width: 58%;}
+.topBox.health img.comment {position: absolute; left: 23%; top: 11%; width: auto;}
+.topBox.food img {margin-top: 20px;}
+.topBox.pill img {width: 50%;}
+span.blue {color: #72BBFF; font-weight: bold;}
+span.darkblue {color: #324D7E; font-weight: bold;}
+span.navy {color: #023A6E; font-weight: bold;}
+span.skyblue {color: #3191D0; font-weight: bold;}
+
+.content .cal {padding: 0 31px 72px; text-align: center; position: relative;}
+.content .cal .sectionTit {line-height: 1.3;}
+.content .cal span.big {display: inline-block; width: 136px; height: 51px; border-radius: 10px; align-content: center; margin: 32px auto; box-shadow: 3px 6px 8px #EEF6FF; color: #72BBFF; font-size: 30px; font-weight: bold;}
+.content .cal span.bar {display: block; position: absolute; bottom: 20; left: 50%; transform: translateX(-50%); width: 280px; height: 10px; background: #D1D1D1; border-radius: 10px;}
+.content .cal span.colorbar {display: block; position: absolute; left: 55px; width: 50px; height: 10px; background: #72BBFF; border-radius: 10px;} 
+.content .cal img.walk {position: absolute; left: 85px; bottom: 48px;}
+
+.content .sleep_analysis {padding: 0 31px 72px;}
+.content .sleep_analysis .sleepbar span {display: inline-block; height: 45px; margin-bottom: 40px;} 
+.content .sleep_analysis .sleepbar span:nth-child(1) {width: 28px; background: #BED2F6; border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.content .sleep_analysis .sleepbar span:nth-child(2) {background: #779AD8; width: 85px;}
+.content .sleep_analysis .sleepbar span:nth-child(3) {background: #446AAE; width: 174px;}
+.content .sleep_analysis .sleepbar span:nth-child(4) {background: #324D7E; width: 40px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
+.content .sleep_analysis ul li {display: flex; margin-bottom: 16px; justify-content: space-between;}
+.content .sleep_analysis ul li span {display: inline-block; margin-right: 15px; width: 16px; height: 16px; border-radius: 50%;}
+.content .sleep_analysis ul li p {font-size: 18px; font-weight: 600; letter-spacing: -1px; color: #656565;}
+.content .sleep_analysis ul li p:nth-child(2) {color: black;}
+.content .sleep_analysis ul li:nth-child(1) span {background: #BED2F6;}
+.content .sleep_analysis ul li:nth-child(2) span {background: #779AD8;}
+.content .sleep_analysis ul li:nth-child(3) span {background: #446AAE;}
+.content .sleep_analysis ul li:nth-child(4) span {background: #324D7E;}
+
+.content .calbar .cal1 {margin: 87px 0; color: #656565; font-size: 18px; font-weight: 600;}
+.content .calbar .cal1 .value {font-size: 30px; font-weight: bold; line-height: 1.5; color: black; margin-top: 4px; margin-bottom: 4px;}
+.content .calbar .cal1 .tot {font-size: 12px;}
+.content .calbar img {position: absolute; left: 50%; bottom: 44%; transform: translateX(-50%);}
+
+.content .blood {padding: 24px 0; margin: 0 27.5px 72px; border-bottom: 1px solid #D1D1D1; border-top: 1px solid #D1D1D1;}
+.content .blood p {font-size: 16px; font-weight: 600;}
+.content p.bloodTit {font-size: 22px; letter-spacing: -1px; font-weight: 700;}
+.content .red {font-weight: 600; color: #F05D60;}
+.content .red.big {font-size: 25px; margin: 16px 0;}
+.content .green {font-weight: 600; color: #06A749;}
+.content .green.big {font-size: 25px; margin: 16px 0;}
+.content .change {padding: 0 27.5px; margin-bottom: 72px;}
+.content .change img {margin-top: 24px; margin-bottom: 16px;}
+
+.content .pillBox {margin-bottom: 24px; display: flex; justify-content: space-between; padding: 0 27.5px;}
+.content .pillBox .sectionTit {margin-bottom: 0;}
+.content .pillBox p.box {display: inline-block; color: #63AEFF; border: 1px solid #63AEFF; border-radius: 20px; padding: 6px 12px; box-sizing: border-box; font-size: 16px; letter-spacing: -1px;}
+.content .pillBox p.box.red {color: #FB5346; border-color: #FB5346;}
+.content .pillList {margin: 0 27.5px;  background: #F9F9F9; margin-bottom: 72px;}
+.content .pillList .listTit {text-align: center; padding: 11px 0; font-size: 18px; letter-spacing: -1px; font-weight: 500; color: white; border-top-left-radius: 10px; border-top-right-radius: 10px; background: linear-gradient(#62ADFF, #92C6F9);}
+.content .pillList .listTit.red {background: linear-gradient(#FB5346, #FFA19A);}
+.content .pillList ul {padding: 16px 13px;}
+.content .pillList ul li {display: flex; align-items: center;}
+.content .pillList ul li p {margin-left: 10px; font-weight: 500;}
+.content .pillList ul li .right p {margin-left: 16px; font-size: 18px; letter-spacing: -1px;}
+.content .pillList ul li .right .pillType {font-size: 16px; color: #656565;}
+.content .warn {margin: 0 27.5px; font-size: 18px; font-weight: 400; letter-spacing: -1px;}
+.content .warn p {margin-bottom: 7px;}
+
+.total {margin: 0 31px 72px; padding: 16px 28px; display: flex; justify-content: space-between; border-top: 1px solid #D1D1D1; border-bottom: 1px solid #D1D1D1;}
+.total .sectionTit {margin-bottom: 0;}
+.total .sectionTit span {font-size: 20px; font-weight: 600; margin-top: 15px; display: inline-block;}
+.total .sectionTit span.gray {color: #656565;}
+
+.total .sectionTit.sleep {text-align: center;}
+
+.content .cal .total {margin: 0; border: none; background: #E8FAFF; border-radius: 10px;}  
+.content .cal .total .sectionTit {width: 33%; text-align: center; font-size: 20px;}
+.content .cal .total .sectionTit span {font-size: 18px; color: #656565;}
+
+.average {padding: 0 31px 72px; }
+.average .sectionTit {margin-bottom: 48px;}
+.average .graph .blockBox {padding: 0 70px; display: flex; align-items: end; justify-content: space-between; font-size: 18px; font-weight: 700; letter-spacing: -1px; color: #656565; border-bottom: 1px solid #D1D1D1;}
+.average .graph .blockBox .block {margin-top: 10px; display: block; width: 45px; height: 75px; background: #72BBFF; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.average .graph .blockBox .block.gray {height: 158px; background: #F9F9F9;}
+.average .graph .name {padding: 10px 65px; display: flex; justify-content: space-between;}
+.average .graph .name p {width: 53px; text-align: center; font-size: 16px; font-weight: 600; color: #656565; letter-spacing: -1px;}
+
+.average .sleepgraph .blockBox {position: relative; height: 114px; display: flex; flex-direction: column; justify-content: space-between; font-size: 18px; font-weight: 700; letter-spacing: -1px; color: #656565; border-left: 1px solid #D1D1D1;}
+.average .sleepgraph .blockBox p.time {position: absolute; left: 17px; top: 10px; color: white; font-weight: normal;}
+.average .sleepgraph .blockBox p.time2 {position: absolute; left: 17px; top: 81px; color: #324D7E; font-weight: normal;}
+.average .sleepgraph .blockBox p {display: flex; gap: 16px; align-items: center;}
+.average .sleepgraph .blockBox .block {display: block; width: 238px; height: 45px; background: #324D7E; border-bottom-right-radius: 5px; border-top-right-radius: 5px;}
+.average .sleepgraph .blockBox .block.gray {width: 261px; background: #BED2F6;}
+
+.record {padding: 0 30px;}
+.record ul li {padding: 25px 22px; border-radius: 10px;  margin-bottom: 24px; color: white;}
+.record ul li:nth-child(1) {background: linear-gradient(#317EBD, #7BCDEF);}
+.record ul li:nth-child(2) {background: linear-gradient(#F58B49, #EBBE5A);}
+.record ul li:nth-child(3) {background: linear-gradient(#5D5DB1, #CD8780);}
+.record ul .recordTit {font-size: 25px; font-weight: 600; line-height: 1.3; display: flex; justify-content: space-between; align-items: start;}
+.record ul .recordTotal {font-size: 16px; font-weight: 500; display: flex; gap: 25px; margin: 16px 0;}
+.record ul .recordTotal span {font-size: 20px; font-weight: 600; display: block; margin-top: 5px;}
+.record ul .menu {display: flex; gap: 12px; padding: 9px 8px; border-radius: 10px; background: white;}
+.record ul .menu .left .foodImg {width: 100%;height: 100%;}
+.record ul .menu .right {padding: 7px 0;}
+.record ul .menu .right p.top {font-size: 14px; font-weight: 700; line-height: 1.5; color: black;}
+.record ul .menu .right p.food {font-size: 12px; font-weight: 600; color: #656565; margin-top: 4px; margin-bottom: 16px;}
+.record ul .menu .right p.result {color: #9B9B9B; font-weight: 600; align-items: center; font-size: 12px; display: flex;}
+.record ul .menu .right p.result span {border-radius: 3px; width: 18px; height: 18px; color: white; text-align: center; align-content: center; display: inline-block; margin-right: 2px;}
+.record ul .menu .right p.result span.result1 {background: #0DB3EA;}
+.record ul .menu .right p.result span.result2 {background: #00AC9E;}
+.record ul .menu .right p.result span.result3 {background: #FF974A;}
+

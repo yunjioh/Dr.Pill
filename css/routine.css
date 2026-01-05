@@ -1,0 +1,13 @@
+.content-wrapper {padding: 0;}
+
+.topBox {width: 254px; margin: 11px auto 29px; display: flex; justify-content: space-between;}
+.topBox p {font-size: 17px; font-weight: 600; color: #656565;}
+.topBox p.select {font-weight: 700; color: #4889FF;}
+
+.content ul {height: 590px; overflow: hidden;}
+.content ul li {display: flex; justify-content: space-between; align-content: center; margin-bottom: 16px; border: 2px solid #F0F4FF; border-radius: 10px; padding: 23px 28px;}
+.content ul li p {font-size: 12px; font-weight: normal; color: #656565;}
+.content ul li p.pillname {font-size: 18px; font-weight: 600; color: black; margin-bottom: 12px;}
+.content .delete .check {border: 3px solid #F66565;}
+.btnBox.delete a {background: #F66565;}
+.topBox p.select.delete {color: #F66565;}
